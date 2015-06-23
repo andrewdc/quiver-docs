@@ -1,0 +1,9 @@
+node_modules
+exports
+coverage
+Gemfile.lock
+.sass-cache
+_SpecRunner.html
+**/npm-debug.log
+tmp
+.DS_Store

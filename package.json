@@ -1,0 +1,46 @@
+{
+  "name": "quiver-docs",
+  "version": "0.0.1",
+  "description": "A package for documenting quiver-ui Sass modules and components",
+  "main": "index.js",
+  "scripts": {
+    "start": "env UV_THREADPOOL_SIZE=100 webpack-dev-server --port 1337 --devtool eval --progress --colors  --hot --inline --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewdc/quiver-docs.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "documentation",
+    "design system",
+    "components"
+  ],
+  "author": "Andrew Colclough <andrew.design@gmail.com> (http://andrewdc.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewdc/quiver-docs/issues"
+  },
+  "homepage": "https://github.com/andrewdc/quiver-docs",
+  "devDependencies": {
+    "quiver-ui": "0.0.13",
+    "autoprefixer-loader": "^1.2.0",
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "css-loader": "^0.9.1",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "file-loader": "^0.8.1",
+    "html-loader": "^0.3.0",
+    "jsx-loader": "^0.12.2",
+    "markdown-loader": "^0.1.2",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^1.2.4",
+    "sass-loader": "^1.0.1",
+    "style-loader": "^0.9.0",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
